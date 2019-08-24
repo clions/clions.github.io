@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next muse use-motion" lang="en">
+<html class="theme-next mist use-motion" lang="en">
 <head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -79,17 +79,17 @@
 
 
 
-<meta name="description" content="What How Why">
+<meta name="description" content="c++执行bash指令 头文件： 123456#include&amp;lt;cstdlib&amp;gt;#include&amp;lt;string&amp;gt;#include&amp;lt;cstdio&amp;gt;#include&amp;lt;cstring&amp;gt;#include&amp;lt;iostream&amp;gt;#include&amp;lt;algorithm&amp;gt;  调用 1FILE * popen(const char * comman">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Operation">
 <meta property="og:url" content="https://github.com/clions/clions.github.io/2019/08/23/Operation/index.html">
 <meta property="og:site_name" content="CLIONS">
-<meta property="og:description" content="What How Why">
+<meta property="og:description" content="c++执行bash指令 头文件： 123456#include&amp;lt;cstdlib&amp;gt;#include&amp;lt;string&amp;gt;#include&amp;lt;cstdio&amp;gt;#include&amp;lt;cstring&amp;gt;#include&amp;lt;iostream&amp;gt;#include&amp;lt;algorithm&amp;gt;  调用 1FILE * popen(const char * comman">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2019-08-24T01:04:12.143Z">
+<meta property="og:updated_time" content="2019-08-24T06:09:20.606Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Operation">
-<meta name="twitter:description" content="What How Why">
+<meta name="twitter:description" content="c++执行bash指令 头文件： 123456#include&amp;lt;cstdlib&amp;gt;#include&amp;lt;string&amp;gt;#include&amp;lt;cstdio&amp;gt;#include&amp;lt;cstring&amp;gt;#include&amp;lt;iostream&amp;gt;#include&amp;lt;algorithm&amp;gt;  调用 1FILE * popen(const char * comman">
 
 
 
@@ -97,7 +97,7 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/clions.github.io/',
-    scheme: 'Muse',
+    scheme: 'Mist',
     version: '5.1.4',
     sidebar: {"position":"left","display":"post","offset":10,"b2t":false,"scrollpercent":false,"onmobile":true},
     fancybox: true,
@@ -329,7 +329,19 @@
       
 
       
-        
+        <h1 id="c-执行bash指令"><a href="#c-执行bash指令" class="headerlink" title="c++执行bash指令"></a>c++执行bash指令</h1><ol>
+<li><p>头文件：</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;cstdlib&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;string&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;cstring&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;algorithm&gt;</span></span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>调用</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">FILE * <span class="title">popen</span><span class="params">(<span class="keyword">const</span> <span class="keyword">char</span> * command, <span class="keyword">const</span> <span class="keyword">char</span> * type)</span></span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>调用</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">system(<span class="string">"command"</span>)</span><br></pre></td></tr></table></figure>
+
+</li>
+</ol>
+
       
     </div>
     
@@ -405,6 +417,10 @@
 
           <div class="post-nav-prev post-nav-item">
             
+              <a href="/clions.github.io/2019/08/24/vscode/" rel="prev" title="VScode">
+                VScode <i class="fa fa-chevron-right"></i>
+              </a>
+            
           </div>
         </div>
       
@@ -475,7 +491,7 @@
               
                 <a href="/clions.github.io/archives/">
               
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
@@ -483,6 +499,15 @@
 
             
 
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">tags</span>
+                
+              </div>
             
 
           </nav>
@@ -544,7 +569,7 @@
 
 
 
-  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
+  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Mist</a> v5.1.4</div>
 
 
 
