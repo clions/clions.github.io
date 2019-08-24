@@ -1944,7 +1944,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #fffeed;
+  background: #2bff53;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3053,7 +3053,7 @@ hr {
   }
 }
 body {
-  background: url("https://source.unsplash.com/random/1600x900?wallpapers");
+  background: url("/images/wallhaven-4xlv13.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
