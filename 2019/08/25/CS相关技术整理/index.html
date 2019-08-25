@@ -79,17 +79,17 @@
 
 
 
-<meta name="description" content="c++执行bash指令 头文件： 123456#include&amp;lt;cstdlib&amp;gt;#include&amp;lt;string&amp;gt;#include&amp;lt;cstdio&amp;gt;#include&amp;lt;cstring&amp;gt;#include&amp;lt;iostream&amp;gt;#include&amp;lt;algorithm&amp;gt;  调用 1FILE * popen(const char * comman">
+<meta name="description" content="WebAssembly这是新一代的web虚拟机标准，它的二进制格式是 .wasm，可通过JavaScript调用。 Visual PrologProlog是一种陈述式编程语言，VIP是OOP语言，编写的程序在MsWindows环境下运行，也就是支持GUI。 TypeScriptTypeScript具有类型系统，且是JavaScript的超集。 它可以编译成普通的JavaScript代码。 Type">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Operation">
-<meta property="og:url" content="https://github.com/clions/clions.github.io/2019/08/23/Operation/index.html">
+<meta property="og:title" content="CS相关技术整理">
+<meta property="og:url" content="https://github.com/clions/clions.github.io/2019/08/25/CS相关技术整理/index.html">
 <meta property="og:site_name" content="CLIONS">
-<meta property="og:description" content="c++执行bash指令 头文件： 123456#include&amp;lt;cstdlib&amp;gt;#include&amp;lt;string&amp;gt;#include&amp;lt;cstdio&amp;gt;#include&amp;lt;cstring&amp;gt;#include&amp;lt;iostream&amp;gt;#include&amp;lt;algorithm&amp;gt;  调用 1FILE * popen(const char * comman">
+<meta property="og:description" content="WebAssembly这是新一代的web虚拟机标准，它的二进制格式是 .wasm，可通过JavaScript调用。 Visual PrologProlog是一种陈述式编程语言，VIP是OOP语言，编写的程序在MsWindows环境下运行，也就是支持GUI。 TypeScriptTypeScript具有类型系统，且是JavaScript的超集。 它可以编译成普通的JavaScript代码。 Type">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2019-08-24T06:09:20.606Z">
+<meta property="og:updated_time" content="2019-08-25T11:16:11.625Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Operation">
-<meta name="twitter:description" content="c++执行bash指令 头文件： 123456#include&amp;lt;cstdlib&amp;gt;#include&amp;lt;string&amp;gt;#include&amp;lt;cstdio&amp;gt;#include&amp;lt;cstring&amp;gt;#include&amp;lt;iostream&amp;gt;#include&amp;lt;algorithm&amp;gt;  调用 1FILE * popen(const char * comman">
+<meta name="twitter:title" content="CS相关技术整理">
+<meta name="twitter:description" content="WebAssembly这是新一代的web虚拟机标准，它的二进制格式是 .wasm，可通过JavaScript调用。 Visual PrologProlog是一种陈述式编程语言，VIP是OOP语言，编写的程序在MsWindows环境下运行，也就是支持GUI。 TypeScriptTypeScript具有类型系统，且是JavaScript的超集。 它可以编译成普通的JavaScript代码。 Type">
 
 
 
@@ -119,13 +119,13 @@
 
 
 
-  <link rel="canonical" href="https://github.com/clions/clions.github.io/2019/08/23/Operation/">
+  <link rel="canonical" href="https://github.com/clions/clions.github.io/2019/08/25/CS相关技术整理/">
 
 
 
 
 
-  <title>Operation | CLIONS</title>
+  <title>CS相关技术整理 | CLIONS</title>
   
 
 
@@ -277,7 +277,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Operation</h1>
+          <h1 class="post-title" itemprop="name headline">CS相关技术整理</h1>
         
 
         <div class="post-meta">
@@ -289,8 +289,8 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-08-23T20:57:29-04:00">
-                2019-08-23
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-08-25T06:07:33-04:00">
+                2019-08-25
               </time>
             
 
@@ -327,19 +327,12 @@
       
 
       
-        <h1 id="c-执行bash指令"><a href="#c-执行bash指令" class="headerlink" title="c++执行bash指令"></a>c++执行bash指令</h1><ol>
-<li><p>头文件：</p>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;cstdlib&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;string&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;cstring&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;algorithm&gt;</span></span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p>调用</p>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">FILE * <span class="title">popen</span><span class="params">(<span class="keyword">const</span> <span class="keyword">char</span> * command, <span class="keyword">const</span> <span class="keyword">char</span> * type)</span></span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p>调用</p>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">system(<span class="string">"command"</span>)</span><br></pre></td></tr></table></figure>
-
-</li>
-</ol>
-
+        <h1 id="WebAssembly"><a href="#WebAssembly" class="headerlink" title="WebAssembly"></a>WebAssembly</h1><p>这是新一代的web虚拟机标准，它的二进制格式是 .wasm，可通过JavaScript调用。</p>
+<h1 id="Visual-Prolog"><a href="#Visual-Prolog" class="headerlink" title="Visual Prolog"></a>Visual Prolog</h1><p>Prolog是一种陈述式编程语言，VIP是OOP语言，编写的程序在MsWindows环境下运行，也就是支持GUI。</p>
+<h1 id="TypeScript"><a href="#TypeScript" class="headerlink" title="TypeScript"></a>TypeScript</h1><p>TypeScript具有类型系统，且是JavaScript的超集。 它可以编译成普通的JavaScript代码。 TypeScript支持任意浏览器，任意环境，任意系统并且是开源的。</p>
+<h1 id="Swift"><a href="#Swift" class="headerlink" title="Swift"></a>Swift</h1><p>Swift，一种支持多编程范式，编译式编程语言，由苹果公司推出，用来撰写OS X和iOS应用程序。</p>
+<h1 id="Scala"><a href="#Scala" class="headerlink" title="Scala"></a>Scala</h1><p>Scala 是一门多范式（multi-paradigm）的编程语言，设计初衷是要集成面向对象编程和函数式编程的各种特性。Scala 运行在Java虚拟机上，并兼容现有的Java程序。Scala 源代码被编译成Java字节码，所以它可以运行于JVM之上，并可以调用现有的Java类库。</p>
+<h1 id><a href="#" class="headerlink" title></a></h1>
       
     </div>
     
@@ -383,7 +376,7 @@
   </li>
   <li class="post-copyright-link">
     <strong>Post link:</strong>
-    <a href="https://github.com/clions/clions.github.io/2019/08/23/Operation/" title="Operation">https://github.com/clions/clions.github.io/2019/08/23/Operation/</a>
+    <a href="https://github.com/clions/clions.github.io/2019/08/25/CS相关技术整理/" title="CS相关技术整理">https://github.com/clions/clions.github.io/2019/08/25/CS相关技术整理/</a>
   </li>
   <li class="post-copyright-license">
     <strong>Copyright Notice: </strong>
@@ -405,8 +398,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="../../22/hello-world/" rel="next" title="Hello World">
-                <i class="fa fa-chevron-left"></i> Hello World
+              <a href="../Server/" rel="next" title="Server">
+                <i class="fa fa-chevron-left"></i> Server
               </a>
             
           </div>
@@ -414,10 +407,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="../../24/vscode/" rel="prev" title="VScode">
-                VScode <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
